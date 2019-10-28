@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="StyleInTheme">@style/StyleForTheme</item>
+        <item name="mview_1">declare in base theme</item>
+        <item name="mview_2">declare in base theme</item>
+        <item name="mview_3">declare in base theme</item>
+        <item name="mview_4">declare in base theme</item>
+        <item name="mview_5">declare in base theme</item>
+    </style>
+
+    <style name="StyleForTheme">
+        <item name="mview_1">declare in theme by style</item>
+        <item name="mview_2">declare in theme by style</item>
+        <item name="mview_3">declare in theme by style</item>
+    </style>
+
+    <style name="MViewStyle">
+        <item name="mview_1">declare in xml by style</item>
+        <item name="mview_2">declare in xml by style</item>
+    </style>
+
+    <style name="StyleForDefStyleRes">
+        <item name="mview_1">declare in style for defStyleRes</item>
+        <item name="mview_2">declare in style for defStyleRes</item>
+        <item name="mview_3">declare in style for defStyleRes</item>
+        <item name="mview_4">declare in style for defStyleRes</item>
+    </style>
+
+</resources>
